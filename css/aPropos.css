@@ -1,0 +1,398 @@
+/*
+*  html5resetcss
+*/
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
+body{line-height:1}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+nav ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:none}
+a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent}
+ins{background-color:#ff9;color:#000;text-decoration:none}
+mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}
+del{text-decoration:line-through}
+abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
+table{border-collapse:collapse;border-spacing:0}
+hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
+input,select{vertical-align:middle}
+
+body {
+    font-size: 14px;
+}
+/*HEADER*/
+header{
+    width: 100%;
+    height: 486px;
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+.background{
+    width: 100%;
+    height: 336px;
+    background: rgba(44,97,152,0.91);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+.logo{
+    width: 136px;
+    height: 111px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 40px;
+    left: 108px;
+    overflow: hidden;
+}
+#imgLogo{
+    width: 136px;
+    height: 111px;
+    background: url("../images/Header/Logo.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 1;
+    border-radius: 9px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+.banner {
+    width: 100%;
+    height: 262px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 203px;
+    left: 72px;
+    overflow: hidden;
+}
+#imgBanner{
+    width: 100%;
+    height: 262px;
+    background: url("../images/Header/Banner.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    border-radius: 9px;
+    overflow: hidden;
+  }
+/*LINK HEADER*/
+.linkHeader{
+  width: 159px;
+  height: 140px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 26px;
+  left: 1159px;
+  overflow: hidden;
+}
+.login{
+    width: 70px;
+    height: 64px;
+    background: url("../images/Header/Connexion.svg");
+    background-color: rgba(39,76,120,1);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 1;
+    border-radius: 9px;
+    position: absolute;
+    top: 2px;
+    left: 0px;
+    overflow: hidden;
+}
+.fichePerso{
+    width: 70px;
+    height: 64px;
+    background: url("../images/Header/Fiche\ Perso.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 89px;
+    overflow: hidden;
+}
+.twitter{
+    width: 70px;
+    height: 64px;
+    background: url("../images/Header/Twitter.svg");
+    background-color: rgba(39,76,120,1);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 1;
+    border-radius: 9px;
+    position: absolute;
+    top: 76px;
+    left: 0px;
+    overflow: hidden;
+}
+.twitch{
+    width: 70px;
+    height: 64px;
+    background: url("../images/Header/Twitch.svg");
+    background-color: rgba(39,76,120,1);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 1;
+    border-radius: 9px;
+    position: absolute;
+    top: 76px;
+    left: 89px;
+    overflow: hidden;
+}
+
+/*MAIN*/
+
+
+
+/*FOOTER*/
+
+footer{
+    width: 100%;
+    height: 351px;;
+    opacity: 1;
+    position: absolute;
+    top: 2219px;
+    left: 0px;
+    overflow: hidden;
+}
+.linkWebGame{
+    width: 884px;
+    height: 62px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 37px;
+    left: 278px;
+    overflow: hidden;
+}
+.boxMog{
+    width: 230px;
+    height: 62px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+#stationMog{
+    width: 230px;
+    height: 62px;
+    background: url("../images/Footer/Station\ Mog.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    border: 3px solid rgba(0,0,0,1);
+   border-radius: 9px;
+    overflow: hidden;
+}
+.boxLodestone{
+    width: 230px;
+    height: 35px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 14px;
+    left: 327px;
+    overflow: hidden;
+}
+#lodestone{
+    width: 230px;
+    height: 35px;
+    background: url("../images/Footer/Lodestone.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    border: 3px solid rgba(0,0,0,1);
+    border-radius: 9px;
+    overflow: hidden;
+}
+.boxEssai{
+    width: 230px;
+    height: 62px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 654px;
+    overflow: hidden;
+}
+#essai{
+    width: 230px;
+    height: 62px;
+    background: url("../images/Footer/Essai.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    border: 3px solid rgba(0,0,0,1);
+    border-radius: 9px;
+    overflow: hidden;
+}
+.politiques{
+    width: 100%;
+    height: 95px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 238px;
+    left: 51px;
+    overflow: hidden;
+}
+#regles{
+    width: 201px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 51px;
+    left: 514px;
+    font-family: Inter;
+    font-weight: Regular;
+    font-size: 18px;
+    opacity: 1;
+    text-align: left;
+}
+#confidentialite{
+    width: 271px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 51px;
+    left: 715px;
+    font-family: Inter;
+    font-weight: Regular;
+    font-size: 18px;
+    opacity: 1;
+    text-align: left;
+  }
+#cookies{
+    width: 316px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 51px;
+    left: 986px;
+    font-family: Inter;
+    font-weight: Regular;
+    font-size: 18px;
+    opacity: 1;
+    text-align: left;
+}
+#copyright{
+    width: 454px;
+    color: rgba(0,0,0,1);
+    position: relative;
+    top: 0px;
+    left: 0px;
+    font-family: Inter;
+    font-weight: Regular;
+    font-size: 18px;
+    opacity: 1;
+    text-align: left;
+}
+.reseaux{
+    width: 182px;
+    height: 58px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 180px;
+    left: 1225px;
+    overflow: hidden;
+}
+.boxReseau{
+    width: 182px;
+    height: 58px;
+    background: rgba(39,76,120,1);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+border-radius: 9px;
+    overflow: hidden;
+}
+#chat{
+    width: 58px;
+    height: 49px;
+    background: url("../images/Footer/Chat.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 4px;
+    border-radius: 9px;
+    overflow: hidden;
+}
+#twitter{
+    width: 61px;
+    height: 54px;
+    background: url("../images/Footer/Twitter.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 62px;
+    border-radius: 9px;
+    overflow: hidden;
+}
+#twitch{
+    width: 76px;
+    height: 50px;
+    background: url("../images/Footer/Twitch.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 4px;
+    left: 106px;
+    border-radius: 9px;
+    overflow: hidden;
+}
