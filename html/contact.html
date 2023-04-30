@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="../css/contact.css">
     <title>Contact</title>
 </head>
 
@@ -14,14 +14,18 @@
     <header>
         <div class="background"></div>
         <div class="logo">
-            <div id="imgLogo"></div>
+            <div id="imgLogo">
+                <a href="/index.html"></a>
+            </div>
         </div>
         <div class="banner">
             <div id="imgBanner"></div>
         </div>
         <div class="barSearch"></div>
         <div class="linkHeader">
-            <div class="fichePerso"></div>
+            <div class="fichePerso">
+                <a href="./aPropos.html"></a>
+            </div>
             <div class="twitch"></div>
             <div class="twitter"></div>
             <div class="login"></div>
@@ -29,7 +33,27 @@
     </header>
     <!--BODY-->
     <main>
-        
+
+        <span class="titre">
+            <h1>Contact</h1>
+        </span>
+        <span class="text">Pour contacter Yuki Tokazaki,<br> Merci de remplir ce formulaire :</span>
+        <form>
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom" required><br>
+
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="message">Message :</label><br>
+            <textarea id="message" name="message" required></textarea><br>
+
+            <input type="submit" value="Envoyer">
+        </form>
+        <span class="textPolitique">Politique de confidentialité *<br>
+
+            En soumettant ce formulaire, j’autorise que les informations saisies soient utilisées pour permettre <br> de me
+            recontacter et j’accepte la politique de confidentialité du site.</span>
         <div class="buttonTop"></div>
 
     </main>
@@ -49,7 +73,7 @@
         </div>
         <div class="politiques">
             <span id="regles">Règles et politiques</span>
-            <span id="confidentialite">Politique de confidentialité</span>
+            <a href="./politiquesMentionsLegales.html"> <span id="confidentialite">Politique de confidentialité</span></a>
             <span id="cookies">Politique d'utilisation des cookies</span>
             <span id="copyright">© SQUARE ENIX CO., LTD. All Rights Reserved. FINAL FANTASY est une marque déposée de
                 Square Enix Holdings Co., Ltd. Tous les matériels sont utilisés sous licence. | © Tokazaki Yuki. All

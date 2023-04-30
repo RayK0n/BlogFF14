@@ -509,6 +509,74 @@ font-size: 29px;
 opacity: 1;
 text-align: left;
 }
+/*FICHE PERSO*/
+/*.boxFichePerso{
+  width: 495px;
+  height: 486px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 230px;
+  right: 500px;
+  overflow: hidden;
+}
+
+.fichePerso1{
+width: 495px;
+  height: 486px;
+  background: url("../images/Main/Fiche\ Perso\ FF14.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  border-radius: 9px;
+  overflow: hidden;
+}
+
+.boxPp{
+  width: 691px;
+  height: 270px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 1020px;
+  left: 374px;
+  overflow: hidden;
+}
+#pp{
+  width: 225px;
+  height: 226px;
+  background: url("../images/Main/Pp.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  border-radius: 9px;
+  overflow: hidden;
+}
+.textPP{
+   width: 331px;
+   color: rgba(0,0,0,1);
+   position: absolute;
+   top: 1px;
+   left: 360px;
+   font-family: Inter;
+   font-weight: Regular;
+   font-size: 12px;
+   opacity: 1;
+   text-align: left; 
+}*/
+
 /*FOOTER*/
 
 footer{
