@@ -21,7 +21,7 @@ body {
 }
 /*HEADER*/
 header{
-    width: 100%;
+    width: auto;
     height: 486px;
     opacity: 1;
     position: relative;
@@ -66,7 +66,7 @@ header{
     overflow: hidden;
 }
 .banner {
-    width: 100%;
+    width: 91%;
     height: 262px;
     background-repeat: no-repeat;
     background-position: center;
@@ -93,7 +93,7 @@ header{
   }
 /*LINK HEADER*/
 .linkHeader{
-  width: 159px;
+  width: 100%;
   height: 140px;
   background-repeat: no-repeat;
   background-position: center;
@@ -101,7 +101,7 @@ header{
   opacity: 1;
   position: absolute;
   top: 26px;
-  left: 1159px;
+  left: 80%;
   overflow: hidden;
 }
 .login{
@@ -164,9 +164,351 @@ header{
 }
 
 /*MAIN*/
-
-
-
+main{
+    width: 100%;
+    height: 1733px;
+    opacity: 1;
+    position: absolute;
+    top: 465px;
+    left: 0px;
+    overflow: hidden;
+}
+/*SELECTLEFT*/
+.boxSelectLeft{
+    width: 420px;
+    height: 616px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 36px;
+    left: 71%;
+    overflow: hidden;
+}
+.selectLeft{
+    width: 420px;
+    height: 616px;
+    background: rgba(44,97,152,0.91);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    border-radius: 9px;
+    overflow: hidden;
+}
+.boxArchives{
+    width: 365px;
+    height: 163px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 31px;
+    left: 30px;
+    overflow: hidden;
+}
+#archive{
+    width: 272px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 10px;
+    left: 47px;
+    font-family: Inter;
+    font-weight: Regular;
+    font-size: 48px;
+    opacity: 1;
+    text-align: center;
+}
+#logoArchive{
+    width: 67px;
+    height: 78px;
+    background: url("../images/Main/Tear-Off\ Calendar.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    border-radius: 9px;
+    overflow: hidden;
+}
+.boxSelectMois{
+    width: 365px;
+    height: 74px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 128px;
+    left: 30px;
+    overflow: hidden;
+}
+.selectMois{
+    width: 365px;
+    height: 74px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    border-radius: 9px;
+    overflow: hidden;
+}
+.textSelect{
+    width: 290px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 11px;
+    left: 16px;
+    font-family: Inter;
+    font-weight: Regular;
+    font-size: 32px;
+    opacity: 1;
+    text-align: center;
+}
+.buttonRight{
+    width: 38px;
+    height: 36px;
+    background: url("../images/Main/Chevron\ Right.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 18px;
+    left: 306px;
+    border-radius: 9px;
+    overflow: hidden;
+}
+/*CATEGORIES SELECT*/
+.categories{
+    width: 364px;
+    height: 315px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 238px;
+    left: 31px;
+    overflow: hidden;
+}
+.textCat{
+    width: 154px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 0px;
+    left: 102px;
+    font-family: Inter;
+    font-weight: Regular;
+    font-size: 29px;
+    opacity: 1;
+    text-align: left;
+}
+/*CAT1*/
+.categorie1{
+        width: 364px;
+        height: 48px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        opacity: 1;
+        position: absolute;
+        top: 57px;
+        left: 0px;
+        overflow: hidden;
+}
+#box1{
+  width: 364px;
+  height: 48px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  border-radius: 9px;
+  overflow: hidden;
+}
+#buttonCat1{
+    width: 38px;
+    height: 36px;
+    background: url("../images/Main/Chevron\ Right.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 6px;
+    left: 301px;
+    border-radius: 9px;
+    overflow: hidden;
+}
+#textCat1{
+  width: 203px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 6px;
+  left: 77px;
+  font-family: Inter;
+  font-weight: Regular;
+  font-size: 29px;
+  opacity: 1;
+  text-align: left;
+}
+/*CAT2*/
+.categorie2{
+    width: 364px;
+    height: 48px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 127px;
+    left: 0px;
+    overflow: hidden;
+}
+#box2{
+width: 364px;
+height: 48px;
+background: rgba(255,255,255,1);
+opacity: 1;
+position: relative;
+top: 0px;
+left: 0px;
+border-radius: 9px;
+overflow: hidden;
+}
+#buttonCat2{
+width: 38px;
+height: 36px;
+background: url("../images/Main/Chevron\ Right.svg");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+opacity: 1;
+position: absolute;
+top: 6px;
+left: 301px;
+border-radius: 9px;
+overflow: hidden;
+}
+#textCat2{
+width: 203px;
+color: rgba(0,0,0,1);
+position: absolute;
+top: 6px;
+left: 77px;
+font-family: Inter;
+font-weight: Regular;
+font-size: 29px;
+opacity: 1;
+text-align: left;
+}
+/*CAT3*/
+.categorie3{
+    width: 364px;
+    height: 48px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 197px;
+    left: 0px;
+    overflow: hidden;
+}
+#box3{
+width: 364px;
+height: 48px;
+background: rgba(255,255,255,1);
+opacity: 1;
+position: relative;
+top: 0px;
+left: 0px;
+border-radius: 9px;
+overflow: hidden;
+}
+#buttonCat3{
+width: 38px;
+height: 36px;
+background: url("../images/Main/Chevron\ Right.svg");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+opacity: 1;
+position: absolute;
+top: 6px;
+left: 301px;
+border-radius: 9px;
+overflow: hidden;
+}
+#textCat3{
+width: 203px;
+color: rgba(0,0,0,1);
+position: absolute;
+top: 6px;
+left: 77px;
+font-family: Inter;
+font-weight: Regular;
+font-size: 29px;
+opacity: 1;
+text-align: left;
+}
+/*CAT4*/
+.categorie4{
+    width: 364px;
+    height: 48px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 267px;
+    left: 0px;
+    overflow: hidden;
+}
+#box4{
+width: 364px;
+height: 48px;
+background: rgba(255,255,255,1);
+opacity: 1;
+position: relative;
+top: 0px;
+left: 0px;
+border-radius: 9px;
+overflow: hidden;
+}
+#buttonCat4{
+width: 38px;
+height: 36px;
+background: url("../images/Main/Chevron\ Right.svg");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+opacity: 1;
+position: absolute;
+top: 6px;
+left: 301px;
+border-radius: 9px;
+overflow: hidden;
+}
+#textCat4{
+width: 203px;
+color: rgba(0,0,0,1);
+position: absolute;
+top: 6px;
+left: 77px;
+font-family: Inter;
+font-weight: Regular;
+font-size: 29px;
+opacity: 1;
+text-align: left;
+}
 /*FOOTER*/
 
 footer{
@@ -186,8 +528,8 @@ footer{
     background-size: cover;
     opacity: 1;
     position: absolute;
-    top: 37px;
-    left: 278px;
+    top: 18px;
+    left: 580px;
     overflow: hidden;
 }
 .boxMog{
@@ -339,8 +681,8 @@ footer{
     background-size: cover;
     opacity: 1;
     position: absolute;
-    top: 180px;
-    left: 1225px;
+    top: 91px;
+    left: 1800px;
     overflow: hidden;
 }
 .boxReseau{

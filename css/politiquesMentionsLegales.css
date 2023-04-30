@@ -21,7 +21,7 @@ body {
 }
 /*HEADER*/
 header{
-    width: 100%;
+    width: auto;
     height: 486px;
     opacity: 1;
     position: relative;
@@ -66,7 +66,7 @@ header{
     overflow: hidden;
 }
 .banner {
-    width: 100%;
+    width: 91%;
     height: 262px;
     background-repeat: no-repeat;
     background-position: center;
@@ -93,7 +93,7 @@ header{
   }
 /*LINK HEADER*/
 .linkHeader{
-  width: 159px;
+  width: 100%;
   height: 140px;
   background-repeat: no-repeat;
   background-position: center;
@@ -101,7 +101,7 @@ header{
   opacity: 1;
   position: absolute;
   top: 26px;
-  left: 1159px;
+  left: 80%;
   overflow: hidden;
 }
 .login{
@@ -164,8 +164,15 @@ header{
 }
 
 /*MAIN*/
-
-
+main{
+    width: 100%;
+    height: 1733px;
+    opacity: 1;
+    position: absolute;
+    top: 465px;
+    left: 0px;
+    overflow: hidden;
+}
 
 /*FOOTER*/
 
@@ -186,8 +193,8 @@ footer{
     background-size: cover;
     opacity: 1;
     position: absolute;
-    top: 37px;
-    left: 278px;
+    top: 18px;
+    left: 580px;
     overflow: hidden;
 }
 .boxMog{
@@ -339,8 +346,8 @@ footer{
     background-size: cover;
     opacity: 1;
     position: absolute;
-    top: 180px;
-    left: 1225px;
+    top: 91px;
+    left: 1800px;
     overflow: hidden;
 }
 .boxReseau{
